@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/pendingPlot/pendingPlot",
+			"style": {
+				"navigationBarTitleText": "待补图"
+			}
+		},
+		{
+			"path": "pages/Identificationdetails/Identificationdetails",
+			"style": {
+				"navigationBarTitleText": "鉴定贴详情"
+			}
+		},
+		{
+			"path": "pages/means/means",
+			"style": {
+				"navigationBarTitleText": "学习资料"
+			}
+		},
+		{
+			"path": "pages/equipment/equipment",
+			"style": {
+				"navigationBarTitleText": "装备鉴定"
+			}
+		},
+		{
+			"path": "pages/examination/examination",
+			"style": {
+				"navigationBarTitleText": "鉴定考试"
+			}
+		},
+		{
+			"path": "pages/statement/statement",
+			"style": {
+				"navigationBarTitleText": "考核声明"
+			}
+		},
+		{
+			"path": "pages/assessment/assessment",
+			"style": {
+				"navigationBarTitleText": "我的鉴定品牌"
+			}
+		},
+		{
+			"path": "pages/gemmologist/gemmologist",
+			"style": {
+				"navigationBarTitleText": "我的鉴定",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "鉴定首页"
+			}
+		},
+		{
+			"path": "pages/questions/questions",
+			"style": {
+				"navigationBarTitleText": "鉴定流程及常见问题"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
